@@ -1,0 +1,90 @@
+body{
+    font-family:Arial,sans-serif ;
+}
+nav span {
+    color: #fff !important;
+}
+.navbar-brand, .nav-link {
+    color: #fff !important;
+    
+}
+
+
+
+.Accueil  {
+    background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/e8/1b/91/la-terrasse.jpg?w=1400&h=-1&s=1");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row ,col-md-4{
+margin-left: 100px;
+margin: 100px;
+margin-top: 35px;
+
+}
+
+.titl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  
+}
+.resto{
+    margin-left: 90px;
+    margin-top: -50px;
+}
+.pro{
+  margin-top: -66vh;
+  margin-left: 120vh;
+}
+.para{
+    margin-left: 120vh;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40vh;
+}
+.form-group{
+    margin: 66px;
+ margin-top: -40px;
+    width: 180vh;
+   margin-left: 14vh;
+}
+.but{
+    margin-left: 15vh;
+    margin-top: -8vh;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000; /* Couleur de fond noire */
+    border-top: 2px solid #ddd; /* Ligne supérieure pour délimiter */
+    margin-top: 50px; /* Espacement en haut du footer */
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.2em; /* Taille de police pour le texte principal */
+    color: #fff; /* Couleur du texte en blanc */
+}
+
+footer a {
+    margin: 0 10px; /* Espacement entre les icônes */
+    text-decoration: none; /* Enlever le soulignement */
+    color: #fff; /* Couleur des liens en blanc */
+    font-size: 1.5em; /* Taille des icônes */
+    transition: color 0.3s; /* Effet de transition pour le survol */
+}
+
+footer a:hover {
+    color: #ff6347; /* Couleur au survol (ex. rouge tomate) */
+}
